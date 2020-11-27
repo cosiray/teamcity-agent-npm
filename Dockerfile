@@ -12,5 +12,3 @@ RUN apt-get update && \
 	apt-get install -y nodejs man && \
 	apt-get clean all && \
 	npm install yarn -g
-	
-USER root
